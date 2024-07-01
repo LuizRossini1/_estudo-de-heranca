@@ -1,3 +1,5 @@
+package Arsenal;
+
 public class Arma {
     private String nome;
     private int municao;
