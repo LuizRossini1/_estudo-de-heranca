@@ -15,12 +15,9 @@ public class Fuzil extends Arma {
         Fuzil fuzil01 = new Fuzil("Ak47", 30, "Travado, automático, semiautomático", true);
         Fuzil fuzil02 = new Fuzil("M4", 30, "Travado, semiautomático, rajada", true);
 
-        fuzil02.setNome("Oi");
-        System.out.println(fuzil02.getNome());
+        fuzil01.fichaTecnica();
+        fuzil02.fichaTecnica();
 
-        //fuzil01.fichaTecnica();
-        //$fuzil02.fichaTecnica();
-
-        //fuzil01.somArma();
+        fuzil01.somArma();
     }
 }
