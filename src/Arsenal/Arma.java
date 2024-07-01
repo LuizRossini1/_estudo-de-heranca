@@ -6,11 +6,28 @@ public class Arma {
     private String modos;
     private boolean miraIntegrada;
 
+    //Setters
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setMunicao(int municao) {
+        this.municao = municao;
+    }
+
+    public void setModos(String modos) {
+        this.modos = modos;
+    }
+
+    public void setMiraIntegrada(boolean miraIntegrada) {
+        this.miraIntegrada = miraIntegrada;
+    }
+
     public void somArma() {
         System.out.println("Pow, pow");
     }
 
-    //getters
+    //Getters
     public String getNome() {
         return nome;
     }
