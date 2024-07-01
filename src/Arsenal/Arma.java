@@ -6,6 +6,14 @@ public class Arma {
     private String modos;
     private boolean miraIntegrada;
 
+    //Construtor
+    public Arma(String nome, int municao, String modos, boolean miraIntegrada) {
+        this.nome = nome;
+        this.municao = municao;
+        this.modos = modos;
+        this.miraIntegrada = miraIntegrada;
+    }
+
     //Setters
     public void setNome(String nome) {
         this.nome = nome;
