@@ -31,9 +31,6 @@ public class Arma {
         this.miraIntegrada = miraIntegrada;
     }
 
-    public void somArma() {
-        System.out.println("Pow, pow");
-    }
 
     //Getters
     public String getNome() {
@@ -50,5 +47,18 @@ public class Arma {
 
     public boolean isMiraIntegrada() {
         return miraIntegrada;
+    }
+
+    //Métodos
+
+    public void somArma() {
+        System.out.println("Pow, pow");
+    }
+
+    public void fichaTecnica() {
+        System.out.println(getNome());
+        System.out.println(getModos());
+        System.out.println(getMunicao());
+        System.out.println(isMiraIntegrada());
     }
 }

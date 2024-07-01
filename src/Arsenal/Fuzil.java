@@ -7,5 +7,7 @@ public class Fuzil extends Arma {
 
     public static void main(String[] args) {
         Arma fuzil01 = new Arma("Ak47", 30, "Travado, automático, semiautomático", true);
+
+        fuzil01.fichaTecnica();
     }
 }
