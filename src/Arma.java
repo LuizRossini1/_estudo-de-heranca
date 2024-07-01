@@ -8,29 +8,7 @@ public class Arma {
         System.out.println("Pow, pow");
     }
 
-    public Arma(String nome, int municao, String modos, boolean miraIntegrada) {
-        this.nome = nome;
-        this.municao = municao;
-        this.modos = modos;
-        this.miraIntegrada = miraIntegrada;
-    }
-
-    /*public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public void setMunicao(int municao) {
-        this.municao = municao;
-    }
-
-    public void setModos(String modos) {
-        this.modos = modos;
-    }
-
-    public void setMiraIntegrada(boolean miraIntegrada) {
-        this.miraIntegrada = miraIntegrada;
-    }*/
-
+    //getters
     public String getNome() {
         return nome;
     }
